@@ -1,0 +1,12 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.wind.photopreview" >
+    
+    
+    <application>
+        
+        <activity android:name=".PhotoPreviewActivity"
+            android:screenOrientation="portrait"
+            android:configChanges="orientation|keyboardHidden|keyboard|layoutDirection|screenLayout"/>
+
+    </application>
+</manifest>
